@@ -1,15 +1,15 @@
 class Guma < Formula
   desc "A parallel disk analyser for macOS, for when System Data is 170 GB and About This Mac will not say why"
   homepage "https://github.com/GarroshIcecream/guma"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/GarroshIcecream/guma/releases/download/v0.1.1/guma-aarch64-apple-darwin.tar.xz"
-      sha256 "b1f563083b2084ffabb461de1bb681fabb0ac2eeedfba515686fe033232847a3"
+      url "https://github.com/GarroshIcecream/guma/releases/download/v0.2.0/guma-aarch64-apple-darwin.tar.xz"
+      sha256 "1fcbea2bc4c1216b6aeaf533053d5d9b539153db5bb6cb78ac7d865dffb9e5f0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/GarroshIcecream/guma/releases/download/v0.1.1/guma-x86_64-apple-darwin.tar.xz"
-      sha256 "557225ac68aa709674b04171bc181935d0b5b448976eef3fed1ce4f678eb2ae9"
+      url "https://github.com/GarroshIcecream/guma/releases/download/v0.2.0/guma-x86_64-apple-darwin.tar.xz"
+      sha256 "7df8f8b88d0b40c688b1d07108ee60981141682f6de325b7bf2d804f782352c8"
     end
   end
   license "MIT"
